@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SelectController">
+   <children>
+      <ListView fx:id="examplesListView" layoutX="20.0" layoutY="31.0" prefHeight="418.0" prefWidth="657.0" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="31.0" />
+      <Label layoutX="33.0" layoutY="14.0" text="Choose the example you'd like to run" />
+   </children>
+</AnchorPane>
